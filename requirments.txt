@@ -1,0 +1,6 @@
+langchain
+langchain-aws
+langchain-chroma
+langchain-text-splitters
+boto3
+chromadb

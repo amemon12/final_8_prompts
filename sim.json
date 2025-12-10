@@ -1,0 +1,872 @@
+{
+  "Travel": {
+    "Description": "User's travel experiences, preferences, constraints, and planning behaviors",
+    "Facts": [
+      {
+        "id": "travel_001",
+        "fact": "The user prefers flying with Delta due to better rewards program benefits and customer service experience.",
+        "timestamps": [
+          "2023-03-15T09:00:00Z",
+          "2024-07-10T14:20:00Z",
+          "2024-11-15T16:45:00Z"
+        ]
+      },
+      {
+        "id": "travel_002",
+        "fact": "The user favors boutique hotels or smaller guesthouses over large chain hotels because they feel more personal and authentic.",
+        "timestamps": [
+          "2023-03-20T18:30:00Z",
+          "2024-07-12T10:15:00Z"
+        ]
+      },
+      {
+        "id": "travel_003",
+        "fact": "The user prefers to stay under $150 per night for accommodations to maintain their travel budget.",
+        "timestamps": [
+          "2024-01-10T14:00:00Z",
+          "2024-11-15T16:45:00Z"
+        ]
+      },
+      {
+        "id": "travel_004",
+        "fact": "The user requires wheelchair-accessible accommodations due to mobility needs.",
+        "timestamps": [
+          "2023-05-08T11:30:00Z",
+          "2024-10-05T09:00:00Z"
+        ]
+      },
+      {
+        "id": "travel_005",
+        "fact": "The user must avoid destinations or activities involving extreme heat because it can trigger migraines.",
+        "timestamps": [
+          "2023-08-22T15:45:00Z",
+          "2024-06-18T12:30:00Z"
+        ]
+      },
+      {
+        "id": "travel_006",
+        "fact": "The user enjoys cultural experiences such as museums and historic tours when traveling.",
+        "timestamps": [
+          "2023-03-17T10:00:00Z",
+          "2023-12-30T14:30:00Z",
+          "2024-07-15T11:00:00Z"
+        ]
+      },
+      {
+        "id": "travel_007",
+        "fact": "The user is particularly interested in exploring local street food tours when traveling to new destinations.",
+        "timestamps": [
+          "2023-03-19T19:00:00Z",
+          "2024-07-20T18:30:00Z"
+        ]
+      },
+      {
+        "id": "travel_008",
+        "fact": "The user often travels with a younger sibling, which influences destination choices and activity planning.",
+        "timestamps": [
+          "2023-12-28T08:30:00Z",
+          "2024-07-10T14:20:00Z"
+        ]
+      },
+      {
+        "id": "travel_009",
+        "fact": "The user has a fear of flying, which may impact travel plans and require additional accommodations.",
+        "timestamps": [
+          "2023-03-15T06:00:00Z",
+          "2024-11-15T05:30:00Z"
+        ]
+      },
+      {
+        "id": "travel_010",
+        "fact": "The user is particularly interested in visiting countries with rich Buddhist heritage.",
+        "timestamps": [
+          "2024-02-14T20:00:00Z",
+          "2024-09-10T16:30:00Z"
+        ]
+      }
+    ],
+    "Credentials": {
+      "passport_number": "P87654321",
+      "passport_expiry": "2028-06-15",
+      "global_entry_number": "1234567890",
+      "tsa_precheck": true,
+      "frequent_flyer_programs": {
+        "delta_skymiles": "DL987654321",
+        "united_mileageplus": "UA123456789"
+      }
+    }
+  },
+  "Health": {
+    "Description": "User's health conditions, fitness routines, dietary practices, and wellness habits",
+    "Facts": [
+      {
+        "id": "health_001",
+        "fact": "The user has type 2 diabetes and needs to monitor their blood sugar levels regularly throughout the day.",
+        "timestamps": [
+          "2023-01-15T08:00:00Z",
+          "2023-07-20T12:30:00Z",
+          "2024-03-10T09:15:00Z",
+          "2024-11-05T11:00:00Z"
+        ]
+      },
+      {
+        "id": "health_002",
+        "fact": "The user is currently training for their first triathlon in June, which includes swimming 3 times a week and maintaining this schedule.",
+        "timestamps": [
+          "2024-01-05T06:30:00Z",
+          "2024-04-15T07:00:00Z",
+          "2024-11-20T06:45:00Z",
+          "2025-11-29T22:58:24.940232Z"
+        ]
+      },
+      {
+        "id": "health_003",
+        "fact": "The user practices intermittent fasting, with their eating window typically between 12pm and 8pm.",
+        "timestamps": [
+          "2023-09-01T12:00:00Z",
+          "2024-02-10T13:30:00Z",
+          "2024-08-25T19:45:00Z"
+        ]
+      },
+      {
+        "id": "health_004",
+        "fact": "The user suffers from chronic migraines that are triggered by bright lights and strong smells.",
+        "timestamps": [
+          "2023-04-20T14:30:00Z",
+          "2023-11-08T10:15:00Z",
+          "2024-07-02T16:45:00Z"
+        ]
+      },
+      {
+        "id": "health_005",
+        "fact": "The user has arthritis in their hands, causing pain when typing for extended periods, which can make it difficult to work or engage in activities that require prolonged typing.",
+        "timestamps": [
+          "2023-06-12T15:00:00Z",
+          "2024-03-18T11:30:00Z",
+          "2024-10-22T14:00:00Z",
+          "2025-11-29T22:59:10.552176Z"
+        ]
+      },
+      {
+        "id": "health_006",
+        "fact": "The user has incorporated a regular swimming routine, practicing 3 times a week as part of their triathlon training.",
+        "timestamps": [
+          "2025-11-29T22:58:24.940232Z"
+        ]
+      },
+      {
+        "id": "health_007",
+        "fact": "The user is a terrible sleeper, usually only getting 4-5 hours of sleep and feeling exhausted all the time.",
+        "timestamps": [
+          "2025-11-29T22:58:40.711073Z"
+        ]
+      }
+    ],
+    "Credentials": {
+      "health_insurance_provider": "Blue Cross Blue Shield",
+      "insurance_member_id": "BCBS987654321",
+      "insurance_group_number": "GRP456789",
+      "primary_care_physician": "Dr. Sarah Chen, MD",
+      "pharmacy_preference": "Walgreens",
+      "gym_membership": "24 Hour Fitness - Member #78945612"
+    }
+  },
+  "Family": {
+    "Description": "Information about user's family structure, dynamics, and caregiving responsibilities",
+    "Facts": [
+      {
+        "id": "family_001",
+        "fact": "The user's mother has recently moved in with them, and she has early stage dementia.",
+        "timestamps": [
+          "2024-03-01T10:00:00Z",
+          "2024-05-15T14:30:00Z",
+          "2024-09-20T09:00:00Z"
+        ]
+      },
+      {
+        "id": "family_002",
+        "fact": "The user often travels with a younger sibling, creating shared experiences and bonding opportunities.",
+        "timestamps": [
+          "2023-12-28T08:30:00Z",
+          "2024-07-10T14:20:00Z",
+          "2024-11-15T16:45:00Z"
+        ]
+      },
+      {
+        "id": "family_003",
+        "fact": "The user's mother has recently moved in with them, and she has early stage dementia.",
+        "timestamps": [
+          "2025-11-29T22:58:31.579844Z"
+        ]
+      }
+    ],
+    "Relationships": {
+      "mother": {
+        "name": "Linda Chen",
+        "age": 68,
+        "relationship_quality": "very close",
+        "health_status": "early stage dementia"
+      },
+      "father": {
+        "name": "David Chen",
+        "age": 70,
+        "relationship_quality": "close",
+        "living_status": "lives separately"
+      },
+      "sibling": {
+        "name": "Alex Chen",
+        "age": 26,
+        "relationship_quality": "very close",
+        "contact_frequency": "weekly"
+      }
+    }
+  },
+  "Pets": {
+    "Description": "User's pet ownership and animal care responsibilities",
+    "Facts": [
+      {
+        "id": "pet_001",
+        "fact": "The user has two rescue dogs and structures daily routines around their walking and feeding schedules.",
+        "timestamps": [
+          "2023-02-10T07:00:00Z",
+          "2023-08-15T18:00:00Z",
+          "2024-05-20T07:30:00Z",
+          "2024-11-28T18:15:00Z"
+        ]
+      },
+      {
+        "id": "pet_002",
+        "fact": "The user's cat has chronic kidney disease, requiring the user to administer subcutaneous fluids every other day.",
+        "timestamps": [
+          "2023-11-05T19:00:00Z",
+          "2024-02-15T19:30:00Z",
+          "2024-08-10T19:00:00Z",
+          "2024-11-25T19:15:00Z"
+        ]
+      },
+      {
+        "id": "pet_002",
+        "fact": "The user's cat has chronic kidney disease, requiring the user to administer subcutaneous fluids every other day.",
+        "timestamps": [
+          "2025-11-29T22:58:51.905428Z"
+        ]
+      }
+    ],
+    "Credentials": {
+      "veterinarian": "Sunset Animal Hospital - Dr. Maria Rodriguez, DVM",
+      "pet_insurance": "Healthy Paws Pet Insurance",
+      "dog_1": {
+        "name": "Max",
+        "breed": "Mixed Breed",
+        "age": 5,
+        "microchip_id": "985112001234567",
+        "license_number": "DOG-2023-45678"
+      },
+      "dog_2": {
+        "name": "Luna",
+        "breed": "Border Collie Mix",
+        "age": 3,
+        "microchip_id": "985112007654321",
+        "license_number": "DOG-2023-45679"
+      },
+      "cat": {
+        "name": "Mochi",
+        "breed": "Domestic Shorthair",
+        "age": 8,
+        "microchip_id": "985112009876543"
+      }
+    }
+  },
+  "Hobbies": {
+    "Description": "User's personal interests, recreational activities, and creative pursuits",
+    "Facts": [
+      {
+        "id": "hobby_001",
+        "fact": "The user has developed a strong interest in sourdough baking, describing themselves as 'obsessed' with it.",
+        "timestamps": [
+          "2023-05-20T15:00:00Z",
+          "2023-09-10T16:30:00Z",
+          "2024-03-25T14:00:00Z",
+          "2024-11-02T15:45:00Z"
+        ]
+      },
+      {
+        "id": "hobby_002",
+        "fact": "The user has been doing photography semi-professionally for 3 years and considers themselves pretty good at it.",
+        "timestamps": [
+          "2023-02-10T14:00:00Z",
+          "2023-08-22T11:30:00Z",
+          "2024-04-18T10:00:00Z",
+          "2024-09-12T13:15:00Z"
+        ]
+      },
+      {
+        "id": "hobby_003",
+        "fact": "The user has developed a strong interest in sourdough baking, describing themselves as 'obsessed' with it.",
+        "timestamps": [
+          "2025-11-29T22:58:35.156828Z"
+        ]
+      }
+    ],
+    "Credentials": {
+      "photography_equipment": {
+        "camera": "Sony A7III",
+        "lenses": [
+          "Sony 24-70mm f/2.8",
+          "Sony 70-200mm f/4"
+        ],
+        "serial_number": "SN-1234567890"
+      },
+      "business_license": "Photography LLC - License #BL-2023-789456",
+      "memberships": {
+        "professional_photographers_association": "Member #PPA-456789",
+        "local_baking_club": "Artisan Bread Collective"
+      }
+    }
+  },
+  "Work": {
+    "Description": "User's work environment preferences, professional development, and career progression",
+    "Facts": [
+      {
+        "id": "work_001",
+        "fact": "The user is most productive in quiet, private workspaces and finds open-office layouts distracting.",
+        "timestamps": [
+          "2023-01-20T09:00:00Z",
+          "2023-07-15T14:00:00Z",
+          "2024-06-10T10:30:00Z"
+        ]
+      },
+      {
+        "id": "work_002",
+        "fact": "The user has recently been promoted to team lead, which now involves significantly more meetings and collaboration.",
+        "timestamps": [
+          "2024-09-01T15:00:00Z",
+          "2024-09-15T11:00:00Z",
+          "2025-11-29T22:58:27.164330Z"
+        ]
+      }
+    ],
+    "Credentials": {
+      "employer": "TechVision Solutions Inc.",
+      "employee_id": "EMP-2020-4567",
+      "position": "Senior Team Lead",
+      "department": "Product Development",
+      "start_date": "2020-03-15",
+      "work_email": "jchen@techvisionsolutions.com",
+      "certifications": {
+        "project_management_professional": "PMP-2023-789456",
+        "scrum_master": "CSM-2022-654321",
+        "google_analytics": "GA-IQ-2024-123456"
+      }
+    }
+  },
+  "Financial": {
+    "Description": "User's financial goals, savings habits, and money management practices",
+    "Facts": [
+      {
+        "id": "financial_001",
+        "fact": "The user is saving for a house down payment and aims to put away $2000 per month.",
+        "timestamps": [
+          "2023-01-01T00:00:00Z",
+          "2023-06-30T23:59:00Z",
+          "2024-01-01T00:00:00Z",
+          "2024-10-31T23:59:00Z"
+        ]
+      }
+    ],
+    "Credentials": {
+      "primary_bank": "Chase Bank",
+      "checking_account": "****-****-****-6789",
+      "savings_account": "****-****-****-4321",
+      "credit_cards": {
+        "chase_sapphire_reserve": "****-****-****-8901",
+        "amex_blue_cash": "****-****-****-2345"
+      },
+      "investment_accounts": {
+        "vanguard_401k": "Account #VG-401K-567890",
+        "fidelity_roth_ira": "Account #FID-ROTH-123456"
+      },
+      "credit_score": 745
+    }
+  },
+  "Education": {
+    "Description": "User's ongoing learning, certifications, and educational pursuits",
+    "Facts": [
+      {
+        "id": "education_001",
+        "fact": "The user is currently taking online courses in data science and is about halfway through the certification process.",
+        "timestamps": [
+          "2024-03-15T19:00:00Z",
+          "2024-07-20T20:30:00Z",
+          "2024-11-10T19:45:00Z"
+        ]
+      },
+      {
+        "id": "education_001",
+        "fact": "The user is currently taking online courses in data science and is about halfway through the certification process.",
+        "timestamps": [
+          "2025-11-29T22:58:38.479107Z"
+        ]
+      }
+    ],
+    "Credentials": {
+      "undergraduate_degree": {
+        "institution": "University of Washington",
+        "degree": "Bachelor of Science in Computer Science",
+        "graduation_year": 2018,
+        "student_id": "UW-2014-789456"
+      },
+      "certifications_in_progress": {
+        "coursera_data_science": "Enrollment ID: CRS-DS-2024-567890",
+        "completion_percentage": 55
+      },
+      "completed_certifications": {
+        "aws_cloud_practitioner": "AWS-CP-2023-456789",
+        "python_programming": "PYTHON-ADV-2022-123456"
+      }
+    }
+  },
+  "Lifestyle": {
+    "Description": "User's daily routines, living situation, and lifestyle choices",
+    "Facts": [
+      {
+        "id": "lifestyle_001",
+        "fact": "The user commutes by electric bike instead of driving, and advocates for improved cycling infrastructure.",
+        "timestamps": [
+          "2023-04-01T08:00:00Z",
+          "2023-10-15T17:30:00Z",
+          "2024-05-22T08:15:00Z",
+          "2024-11-18T17:45:00Z"
+        ]
+      },
+      {
+        "id": "lifestyle_002",
+        "fact": "The user currently lives in a small apartment of 600 sq ft and finds it quite cramped.",
+        "timestamps": [
+          "2023-02-01T20:00:00Z",
+          "2024-06-15T21:30:00Z"
+        ]
+      },
+      {
+        "id": "lifestyle_003",
+        "fact": "The user meal-preps on Sundays for the entire week to reduce daily decision fatigue.",
+        "timestamps": [
+          "2023-01-08T14:00:00Z",
+          "2023-06-04T15:30:00Z",
+          "2024-02-11T14:15:00Z",
+          "2024-11-24T13:45:00Z"
+        ]
+      },
+      {
+        "id": "lifestyle_004",
+        "fact": "The user requires 20-30 minutes of quiet time with coffee before engaging in conversation or decision-making.",
+        "timestamps": [
+          "2023-03-10T06:30:00Z",
+          "2023-09-18T06:45:00Z",
+          "2024-05-05T07:00:00Z",
+          "2024-11-28T06:30:00Z"
+        ]
+      },
+      {
+        "id": "lifestyle_005",
+        "fact": "The user typically sleeps only 4-5 hours per night, resulting in constant exhaustion.",
+        "timestamps": [
+          "2023-02-15T01:30:00Z",
+          "2023-08-20T02:00:00Z",
+          "2024-04-12T01:45:00Z",
+          "2024-11-05T02:15:00Z"
+        ]
+      },
+      {
+        "id": "lifestyle_006",
+        "fact": "The user is naturally a night owl with peak productivity between 10 PM and 2 AM.",
+        "timestamps": [
+          "2023-01-25T22:30:00Z",
+          "2023-07-10T23:45:00Z",
+          "2024-03-08T22:00:00Z",
+          "2024-10-15T23:15:00Z"
+        ]
+      },
+      {
+        "id": "lifestyle_007",
+        "fact": "The user recently acquired an electric bike and is now attempting to commute by biking instead of driving.",
+        "timestamps": [
+          "2025-11-29T22:58:45.122051Z"
+        ]
+      },
+      {
+        "id": "lifestyle_008",
+        "fact": "The user currently lives in a small apartment of 600 sq ft and finds it quite cramped.",
+        "timestamps": [
+          "2025-11-29T22:58:47.385604Z"
+        ]
+      }
+    ],
+    "Credentials": {
+      "residence": {
+        "address": "742 Pine Street, Apt 4B, Seattle, WA 98101",
+        "lease_start": "2022-09-01",
+        "lease_end": "2025-08-31",
+        "landlord": "Urban Living Properties LLC"
+      },
+      "transportation": {
+        "electric_bike": "Rad Power Bikes RadCity 5 Plus",
+        "bike_registration": "BIKE-SEA-2023-12345"
+      },
+      "utilities": {
+        "electricity": "Seattle City Light - Account #SCL-456789",
+        "internet": "Comcast Xfinity - Account #COM-987654"
+      }
+    }
+  },
+  "Social": {
+    "Description": "User's social preferences, communication styles, and relationship patterns",
+    "Facts": [
+      {
+        "id": "social_001",
+        "fact": "The user has deleted Facebook and Instagram and refuses to use them anymore.",
+        "timestamps": [
+          "2023-06-01T14:00:00Z",
+          "2023-11-20T10:30:00Z"
+        ]
+      },
+      {
+        "id": "social_002",
+        "fact": "The user maintains a small, close-knit group of 3-4 longtime friends rather than a wide social network.",
+        "timestamps": [
+          "2023-03-15T19:00:00Z",
+          "2024-08-10T18:30:00Z"
+        ]
+      },
+      {
+        "id": "social_003",
+        "fact": "The user identifies as an introvert and requires alone time to recharge after social events.",
+        "timestamps": [
+          "2023-05-20T21:00:00Z",
+          "2023-12-31T22:30:00Z",
+          "2024-07-04T20:45:00Z"
+        ]
+      },
+      {
+        "id": "social_001",
+        "fact": "The user has deleted Facebook and Instagram and refuses to use them anymore.",
+        "timestamps": [
+          "2025-11-29T22:58:42.867993Z"
+        ]
+      }
+    ],
+    "Credentials": {
+      "active_platforms": {
+        "linkedin": "linkedin.com/in/jasonchen-tech",
+        "twitter": "@jchen_tech",
+        "discord": "JChen#4567"
+      },
+      "messaging_preferences": {
+        "primary": "Signal - Phone: +1-206-555-0123",
+        "secondary": "Email: jason.chen.personal@gmail.com"
+      }
+    }
+  },
+  "Personality": {
+    "Description": "User's personality traits, behavioral patterns, and cognitive preferences",
+    "Facts": [
+      {
+        "id": "personality_001",
+        "fact": "The user learns most effectively through structured, step-by-step explanations and benefits from interactive checkpoints to verify understanding.",
+        "timestamps": [
+          "2024-03-15T19:00:00Z",
+          "2024-07-20T20:30:00Z"
+        ]
+      },
+      {
+        "id": "personality_002",
+        "fact": "The user grew up in a bilingual household speaking Mandarin and English, and often code-switches naturally in conversation.",
+        "timestamps": [
+          "2023-02-10T15:00:00Z",
+          "2024-06-22T11:30:00Z"
+        ]
+      },
+      {
+        "id": "personality_003",
+        "fact": "The user is sensitive to strong fragrances and perfumes, which can trigger headaches or nausea.",
+        "timestamps": [
+          "2023-04-18T10:30:00Z",
+          "2023-11-25T14:15:00Z",
+          "2024-08-08T09:45:00Z"
+        ]
+      },
+      {
+        "id": "personality_004",
+        "fact": "The user copes with stress through physical activity, particularly long walks or runs in natural settings.",
+        "timestamps": [
+          "2023-03-22T17:00:00Z",
+          "2023-09-05T18:30:00Z",
+          "2024-05-14T17:15:00Z",
+          "2024-11-02T16:45:00Z"
+        ]
+      },
+      {
+        "id": "personality_005",
+        "fact": "The user researches extensively before purchases and reads multiple reviews before committing to products.",
+        "timestamps": [
+          "2023-02-10T14:00:00Z",
+          "2023-08-15T16:30:00Z",
+          "2024-04-20T15:00:00Z",
+          "2024-10-12T13:45:00Z"
+        ]
+      },
+      {
+        "id": "personality_006",
+        "fact": "The user has ADHD and uses the Pomodoro technique, timers, body-doubling, and external accountability to complete tasks.",
+        "timestamps": [
+          "2023-01-15T09:00:00Z",
+          "2023-06-10T14:30:00Z",
+          "2024-02-25T10:15:00Z",
+          "2024-09-18T13:00:00Z"
+        ]
+      },
+      {
+        "id": "personality_007",
+        "fact": "The user thrives in cooler temperatures and becomes sluggish or irritable in hot, humid weather.",
+        "timestamps": [
+          "2023-07-20T15:00:00Z",
+          "2024-08-15T16:30:00Z"
+        ]
+      },
+      {
+        "id": "personality_008",
+        "fact": "The user is highly privacy-conscious and uses VPNs, encrypted messaging, and avoids sharing personal data online.",
+        "timestamps": [
+          "2023-04-05T11:00:00Z",
+          "2023-10-12T14:30:00Z",
+          "2024-06-18T10:45:00Z"
+        ]
+      },
+      {
+        "id": "personality_009",
+        "fact": "The user tends to be analytical and research-driven, often creating pro-con lists before major decisions.",
+        "timestamps": [
+          "2023-02-18T19:00:00Z",
+          "2023-09-25T20:30:00Z",
+          "2024-05-10T18:45:00Z",
+          "2024-11-08T19:15:00Z"
+        ]
+      },
+      {
+        "id": "personality_010",
+        "fact": "The user dislikes confrontation and typically needs time to process emotions before addressing disagreements.",
+        "timestamps": [
+          "2023-05-15T21:00:00Z",
+          "2024-03-20T22:30:00Z"
+        ]
+      },
+      {
+        "id": "personality_011",
+        "fact": "The user needs advance notice for changes and becomes anxious when routines are disrupted without warning.",
+        "timestamps": [
+          "2023-03-08T09:00:00Z",
+          "2023-11-15T10:30:00Z",
+          "2024-07-22T08:45:00Z"
+        ]
+      },
+      {
+        "id": "personality_012",
+        "fact": "The user has a strong tendency to procrastinate, often waiting until the last minute to complete tasks.",
+        "timestamps": [
+          "2023-04-25T23:00:00Z",
+          "2023-10-30T22:30:00Z",
+          "2024-06-28T23:45:00Z",
+          "2024-11-20T22:15:00Z"
+        ]
+      },
+      {
+        "id": "personality_013",
+        "fact": "The user prefers text-based communication over phone calls due to experiencing phone anxiety.",
+        "timestamps": [
+          "2023-02-20T14:00:00Z",
+          "2023-08-12T15:30:00Z",
+          "2024-04-05T13:45:00Z",
+          "2024-10-18T14:15:00Z"
+        ]
+      },
+      {
+        "id": "personality_014",
+        "fact": "The user has ADHD and uses the Pomodoro technique to stay focused.",
+        "timestamps": [
+          "2025-11-29T22:58:29.285306Z"
+        ]
+      },
+      {
+        "id": "personality_015",
+        "fact": "The user identifies as an introvert and requires alone time to recharge after social events.",
+        "timestamps": [
+          "2025-11-29T22:58:49.578951Z"
+        ]
+      },
+      {
+        "id": "personality_012",
+        "fact": "The user has a strong tendency to procrastinate, often waiting until the last minute to complete tasks.",
+        "timestamps": [
+          "2025-11-29T22:59:05.672011Z"
+        ]
+      },
+      {
+        "id": "personality_016",
+        "fact": "The user prefers text-based communication over phone calls due to experiencing phone anxiety.",
+        "timestamps": [
+          "2025-11-29T22:59:07.893419Z"
+        ]
+      }
+    ],
+    "Credentials": {
+      "personality_assessments": {
+        "myers_briggs": "INTJ",
+        "enneagram": "Type 5 (The Investigator)",
+        "strengths_finder_top_5": [
+          "Analytical",
+          "Learner",
+          "Strategic",
+          "Input",
+          "Individualization"
+        ]
+      },
+      "languages": {
+        "mandarin": "Native fluency",
+        "english": "Native fluency",
+        "spanish": "Intermediate (Duolingo Level 15)"
+      }
+    }
+  },
+  "Values": {
+    "Description": "User's core values, spiritual practices, and commitment to causes",
+    "Facts": [
+      {
+        "id": "values_001",
+        "fact": "The user volunteers monthly at a local food bank and prioritizes community service in personal time allocation.",
+        "timestamps": [
+          "2023-01-15T10:00:00Z",
+          "2023-05-20T09:30:00Z",
+          "2023-09-10T10:15:00Z",
+          "2024-03-16T09:45:00Z",
+          "2024-11-23T10:00:00Z"
+        ]
+      },
+      {
+        "id": "values_002",
+        "fact": "The user prioritizes eco-friendly options and actively seeks out secondhand or sustainable products.",
+        "timestamps": [
+          "2023-03-10T14:00:00Z",
+          "2023-07-25T15:30:00Z",
+          "2024-02-18T13:45:00Z",
+          "2024-09-05T14:15:00Z"
+        ]
+      },
+      {
+        "id": "values_003",
+        "fact": "The user practices Buddhism and meditates for 20 minutes every morning.",
+        "timestamps": [
+          "2023-01-01T06:00:00Z",
+          "2023-06-15T06:15:00Z",
+          "2024-01-01T06:00:00Z",
+          "2024-11-28T06:00:00Z"
+        ]
+      },
+      {
+        "id": "values_004",
+        "fact": "The user is attempting to adopt a zero waste lifestyle, composting all organic waste and avoiding plastic.",
+        "timestamps": [
+          "2023-04-22T12:00:00Z",
+          "2023-10-05T14:30:00Z",
+          "2024-06-12T13:15:00Z",
+          "2024-11-15T12:45:00Z"
+        ]
+      },
+      {
+        "id": "values_005",
+        "fact": "The user is passionate about climate activism and volunteers with local environmental groups.",
+        "timestamps": [
+          "2023-03-15T18:00:00Z",
+          "2023-07-20T17:30:00Z",
+          "2024-04-10T18:15:00Z",
+          "2024-10-05T17:45:00Z"
+        ]
+      },
+      {
+        "id": "values_004",
+        "fact": "The user practices Buddhism and meditates for 20 minutes every morning.",
+        "timestamps": [
+          "2025-11-29T22:58:54.235464Z"
+        ]
+      },
+      {
+        "id": "values_006",
+        "fact": "The user is trying to adopt a zero waste lifestyle, composting all organic waste and avoiding plastic.",
+        "timestamps": [
+          "2025-11-29T22:58:56.551968Z"
+        ]
+      },
+      {
+        "id": "values_005",
+        "fact": "The user is passionate about climate activism and volunteers with local environmental groups.",
+        "timestamps": [
+          "2025-11-29T22:59:03.318365Z"
+        ]
+      }
+    ],
+    "Credentials": {
+      "volunteer_organizations": {
+        "seattle_food_bank": "Volunteer ID: SFB-2023-7890",
+        "350_seattle": "Member ID: 350-SEA-4567",
+        "puget_sound_keeper": "Volunteer since 2023"
+      },
+      "spiritual_affiliations": {
+        "meditation_center": "Seattle Insight Meditation Society",
+        "membership_id": "SIMS-2023-456"
+      },
+      "sustainability_certifications": {
+        "zero_waste_lifestyle_course": "Completed 2023-04",
+        "composting_master": "King County Certification 2023-05"
+      }
+    }
+  },
+  "Preferences": {
+    "Description": "User's preferences in entertainment, fashion, and personal style choices",
+    "Facts": [
+      {
+        "id": "preferences_001",
+        "fact": "The user prefers watching documentaries and true crime content, and is not interested in fiction shows.",
+        "timestamps": [
+          "2023-02-15T20:00:00Z",
+          "2023-08-10T21:30:00Z",
+          "2024-05-20T20:15:00Z",
+          "2024-11-10T21:00:00Z"
+        ]
+      },
+      {
+        "id": "preferences_002",
+        "fact": "The user prefers a minimalist clothing style, primarily wearing black and gray, and maintains a capsule wardrobe.",
+        "timestamps": [
+          "2023-01-20T10:00:00Z",
+          "2023-09-15T11:30:00Z",
+          "2024-07-08T10:45:00Z"
+        ]
+      }
+    ],
+    "Credentials": {
+      "streaming_subscriptions": {
+        "netflix": "Active since 2020",
+        "hbo_max": "Active since 2022",
+        "criterion_channel": "Active since 2023"
+      },
+      "style_preferences": {
+        "clothing_brands": [
+          "Everlane",
+          "Patagonia",
+          "Uniqlo"
+        ],
+        "wardrobe_size": "32 pieces total",
+        "shoe_size": "US Men's 9.5"
+      }
+    }
+  }
+}
